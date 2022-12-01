@@ -11,6 +11,7 @@ type FindByNameDTO = {
 type DataToUpdateDTO = {
   data: Partial<LibraryEntity>;
   libraryId: string;
+  userId: string;
 };
 
 type FindByIdDTO = {
@@ -19,6 +20,7 @@ type FindByIdDTO = {
 
 type DeleteLibraryDTO = {
   libraryId: string;
+  userId: string;
 };
 
 type ReadAllBooksDTO = {
@@ -28,6 +30,7 @@ type ReadAllBooksDTO = {
 type CreateRelationDTO = {
   bookId: string;
   libraryId: string;
+  userId?: string;
 };
 
 type AlreadyRelationConflictDTO = {
@@ -54,11 +57,13 @@ type LibraryIdDTO = {
 type DataDTO = {
   data: Partial<LibraryEntity>;
   libraryId: string;
+  userId: string;
 };
 
 type UserDataDTO = {
   bookId: string;
   libraryId: string;
+  userId?: string;
 };
 
 export {
