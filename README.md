@@ -2,6 +2,7 @@
 
 **RF** <br>
 Deve ser possível cadastrar um novo usuário. <br>
+Deve ser possível cadastrar um avatar de usuário. <br>
 Deve ser possível listar um único usuário.  <br>
 Deve ser possível listar todas os usuários.  <br>
 Deve ser possível alterar dados de um usuário.  <br>
@@ -11,8 +12,8 @@ Deve ser possível deletar vários usuários.  <br>
 **RN** <br>
 Não deve ser possível cadastrar um usuário com celular ou e-mail já existentes.  <br>
 Não deve ser possível alterar a senha na rota de update.  <br>
-Somente admin, pode dar Update em um User.  <br>
-Somente admin, poderão criar outros admins. <br>
+Somente admin, pode alterar dados de um Usuário.  <br>
+Somente admin, pode criar outros usuários admins. <br>
 
 # Sessão
 
